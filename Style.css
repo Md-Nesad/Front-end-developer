@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    margin: 20px 0;
+} 
+.First-line-div{
+    background-color: #f76a37;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+.First-line-div > p > span{
+    color: aquamarine;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Second-line-parent{
+    display: flex;
+    background-color: #242424;
+    padding: 20px 0;
+    justify-content: space-around;
+    color: white;
+}
+.Icon-div-second-line > i{
+   margin: 0 10px;
+   font-size: 20px;
+}
+.logo-div{
+    font-family: fantasy;
+    color: red;
+    font-size: 25px;
+}
+.Second-navigation-bar{
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    padding: 30px 150px;
+    justify-content:baseline;
+    align-items: baseline;
+}
+.Second-navigation-bar > ul{
+    display: flex;
+}
+.Second-navigation-bar > ul > li{
+    list-style-type: none;
+    margin: 0 30px;
+}
+.Second-navigation-bar > ul > li > a{
+    text-decoration: none;
+    color: #282626;
+    transition: 0.5s;
+}
+.Second-navigation-bar > ul > li > a:hover{
+    color: #f76a37;
+}
+/* hero area code start here */
+.Here-area-parent{
+    background-image: url('photo/american-colleagues-digital-device-discussion.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding-left: 150px;
+    padding-top: 120px;
+    height: 73vh;
+}
+.Here-area-parent h1{
+    font-size: 70px;
+    color:white;
+}
+.Here-area-parent > h3{
+    font-size: 40px;
+    margin: 30px 0;
+    color:white;
+}
+.Here-area-parent > button{
+    background-color: #f76a37;
+    padding: 10px 20px;
+    border-radius: 15px 15px;
+    font-size: 30px;
+    color: white;
+}
+/* hero area code end from here */
+.first-section-tittle{
+    text-align: center;
+    color: #f76a37;
+    font-size: 35px;
+    margin: 50px 0;
+}
+.first-section-box-container{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.first-section-first-box > i{
+    font-size: 30px;
+    border: 02px solid orange;
+    padding: 20px;
+    border-radius: 50%;
+}
+.first-section-first-box > h3{
+    color: #f76a37;
+    margin: 15px 0;
+    font-size: 30px;
+}
+.first-section-first-box > p{
+    font-size: 20px;
+}
+/* first section code end from here */
+
+/* Second section code start from here */
+.section-two-tittle > h2{
+    background-color: #f76a37;
+    font-size: 45px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+.section-two-tittle > h3{
+    margin: 40px 0;
+    color: #f76a37;
+    font-size: 45px;
+    margin-left: 160px;
+}
+.second-section-text{
+    width: 500px;
+}
+.second-section-text > h4{
+    color: gray;
+}
+.second-section-text > p{
+    margin: 15px 0;
+} 
+.section-section-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:black;
+    width: 50%;
+    height: 40vh;
+    color:white;
+    padding-top: 30px;
+}
+.picture-img-div > h4{
+    margin: 25px 0;
+    font-size: 20px;
+}
+.picture-img-div > h3{
+    font-size: 35px;
+}
+.picture-img-div > a{
+    text-decoration: none;
+    background-color: #f76a37;
+    padding: 10px 30px;
+    border-radius: 05px;
+    color: white;
+    border: 02px solid #f76a37;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.picture-img-div > a:hover{
+    background-color: rgba(0, 0, 0, 0.285);
+}
+.text-image-parent-second-section{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.icon-div i{
+    background-color: #f76a37;
+    padding: 05px;
+    border-radius: 50%;
+    color: white;
+    margin-bottom: 05px;
+    margin-top: 10px;
+}
+/* Second section code end from here */
+
+/* third section code start from here */
+.Paralax-section{
+    background-image: url('photo/paralax.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
+.paralax-section-container{
+    width: 40%;
+    margin-left: 15%;
+    padding-top: 10%;
+}
+.paralax-section-container > h3{
+    color: #3d3d3d;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.first-p-tag{
+    color:#3d3d3d;
+    line-height: 30px;
+    border-radius: 05px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.second-p-tag{
+    color:#3d3d3d;
+    line-height: 30px;
+    border-radius: 05px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.paralax-section-container > a{
+    text-decoration: none;
+    background-color: #f76a37;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.paralax-section-container > a:hover{
+    background-color: rgba(0, 0, 0, 0.285);
+    border: 02px solid #f76a37;
+}
+
+ /* third section code end from here */
+
+ /* fourth section code start from here */
+.fourth-section-parent{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0;
+}
+.fourth-section-parent > img{
+    width: 400px;
+    height: 450px;
+}
+.single-box-div{
+    width: 750px; 
+}
+.single-box-div > h3{
+    font-size: 50px;
+    color: #f76a37;
+}
+.single-box-div > p{
+    color: gray;
+    margin: 20px 0;
+    line-height: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 22px;
+}
+.single-box-div > a{
+    text-decoration: none;
+    background-color: #f76a37;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.single-box-div > a:hover{
+    background-color: rgba(0, 0, 0, 0.285);
+    border: 02px solid #f76a37;
+}
+/* fourth section code end from here */
+
+/* five section code start from here */
+.Ebook-section{
+    background-color: rgb(218, 217, 217);
+}
+.Ebook-section-container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0;
+}
+.Ebook-image-area > img{
+    height: 90vh;
+    width: 550px;
+}
+.Ebook-image-area > a{
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    background-color: #f76a37;
+    border-radius: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+.Ebook-text-area > h3{
+    color: #f76a37;
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+}
+.Ebook-text-area > hr{
+    margin: 10px 0;
+}
+.Ebook-text-area > h4{
+    color: gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.h4-second-tag{
+    margin: 15px 0;
+}
+.p-tag-div > p> i{
+    background-color: #f76a37;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+.icon-div > hr{
+    margin: 10px;
+}
+.learn-more{
+    text-decoration: none;
+    background-color: #f76a37;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* five section code end from here */
+
+/* six section code start from here */
+.sixth-section{
+    background-color:antiquewhite;
+}
+.six-section-title > h3{
+    background-color: #7293b4;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.six-section-parent{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.six-section-text-area{
+    padding-top: 60px;
+}
+.six-section-text-area > h3{
+    color: red;
+    font-size: 23px;
+}
+#p-tag-first{
+    margin: 20px 0;
+    color:gray;
+    font-size: 18px;
+}
+.six-section-text-area > a{
+    text-decoration: none;
+    background-color: #7293b4;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 17px;
+}
+.img-area-six-section > img{
+    width: 550px;
+}
+
+/* footer section code start from here */
+.seven-section{
+    background-color: #3e3e3e;
+    color: white;
+    padding: 30px;
+}
+.footer-di-parent{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+}
+.single-first-div{
+    width: 200px;
+}
+.firsi-div-first-p-tag{
+    margin: 30px 0 20px 0;
+}
+.single-first-div > button{
+    color: white;
+    margin-top: 25px;
+    padding: 10px 30px;
+    background-color: #ff5e00;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer-di-parent .single-first-div:nth-child(2) > p {
+    margin-top: 20px;
+    border-bottom: 02px solid white;
+    padding-bottom: 15px;
+}
+.footer-di-parent .single-first-div:nth-child(3) > p {
+    margin-top: 20px;
+    border-bottom: 02px solid white;
+    padding-bottom: 15px;
+}
+.footer-di-parent .single-first-div:nth-child(4) > p {
+    margin-top: 20px;
+    border-bottom: 02px solid white;
+    padding-bottom: 15px;
+}
+.footer-di-parent .single-first-div:nth-child(4) > a{
+    text-decoration: none;
+    background-color:#ff5e00;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+}
+#footer-text-icon-div{
+    text-align: center;
+    margin-top: 30px;
+}
+.Icon-div > i{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+/* code end from here  */
